@@ -23,12 +23,12 @@ table 50100 "Radio Show"
         field(1080; "Weather Duration"; Duration) { }
         field(1090; "Date Filter"; Date) { FieldClass = FlowFilter; }
     }
-    keys
+    /*keys
     {
         key(PK; "No.") { }
         key(Name; "Name") { }
         key(Host; "Host Code") { }
-    }
+    }*/
     fieldgroups
     {
         fieldgroup(DropDown; "No.", Name, "Host Name") { }
