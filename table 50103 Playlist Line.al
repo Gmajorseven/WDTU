@@ -12,6 +12,5 @@ table 50103 "Playlist Line"
         field(60; Duration; Duration) { }
         field(70; "Start Time"; Time) { }
         field(80; "End Time"; Time) { }
-
     }
 }
