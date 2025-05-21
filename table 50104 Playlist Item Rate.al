@@ -8,6 +8,11 @@ table 50104 "Playlist Item Rate"
         field(40; "Start Time"; Time) { }
         field(50; "End Time"; Time) { }
         field(60; "Rate Amount"; Decimal) { }
-        field(70; "Publischer Code"; Code[10]) { }
+        field(70; "Publischer Code"; Code[10])
+        {
+            ObsoleteState = Pending;
+            ObsoleteReason = 'Renamed to Publisher Code';
+        }
+        field(71; "Publisher Code"; Code[10]) { }
     }
 }

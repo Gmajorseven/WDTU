@@ -17,7 +17,7 @@ page 50104 "Playlist Item Rate"
                 field("Start Time"; Rec."Start Time") { ApplicationArea = Basic; }
                 field("End Time"; Rec."End Time") { ApplicationArea = Basic; }
                 field("Rate Amount"; Rec."Rate Amount") { ApplicationArea = Basic; }
-                field("Publisher Code"; Rec."Publischer Code") { ApplicationArea = Basic; }
+                field("Publisher Code"; Rec."Publisher Code") { ApplicationArea = Basic; }
             }
         }
     }
