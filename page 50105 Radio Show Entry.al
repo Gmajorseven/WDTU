@@ -9,7 +9,7 @@ page 50105 "Playlist Show Entry"
     {
         area(Content)
         {
-            repeater(GroupName)
+            repeater(Group)
             {
                 field("Entry No."; Rec."Entry No.") { ApplicationArea = Basic; }
                 field("Radio Show No."; Rec."Radio Show No.") { ApplicationArea = Basic; }
