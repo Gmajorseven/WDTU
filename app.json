@@ -1,5 +1,5 @@
 {
-  "id": "fd12d2f5-b816-4bd4-835c-4adf4f51223f",
+  "id": "35f52ea9-8f24-4bbd-ad82-b2384b929202",
   "name": "WDTU",
   "publisher": "Default Publisher",
   "version": "1.0.0.0",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "14.42.49347.0",
+  "application": "15.4.41023.43755",
   "idRanges": [
     {
       "from": 50100,
@@ -21,7 +21,7 @@
     }
   ],
   "showMyCode": true,
-  "runtime": "3.0",
+  "runtime": "4.0",
   "features": [
     "NoImplicitWith"
   ]
