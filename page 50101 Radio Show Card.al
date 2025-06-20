@@ -2,11 +2,6 @@ page 50101 "Radio Show Card"
 {
     PageType = Card;
     SourceTable = "Radio Show";
-    Editable = true;
-    InsertAllowed = true;
-    ModifyAllowed = true;
-    DeleteAllowed = true;
-
     layout
     {
         area(content)
@@ -37,6 +32,48 @@ page 50101 "Radio Show Card"
                 {
                     ApplicationArea = Basic;
                 }
+                field(Frequency; Rec.Frequency)
+                {
+                    ApplicationArea = Basic;
+                }
+            }
+            group(Planning)
+            {
+                field("PSA Planned Quantity"; Rec."PSA Planned Quantity")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Ads Planned Quantity"; Rec."Ads Planned Quantity")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("News Required"; Rec."News Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("News Duration"; Rec."News Duration")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Sports Required"; Rec."Sports Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Sports Duration"; Rec."Sports Duration")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Weather Required"; Rec."Weather Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Weather Duration"; Rec."Weather Duration")
+                {
+                    ApplicationArea = Basic;
+                }
+            }
+            group(Statistics)
+            {
                 field("Average Listeners"; Rec."Average Listeners")
                 {
                     ApplicationArea = Basic;

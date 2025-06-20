@@ -2,7 +2,9 @@ page 50100 "Radio Show List"
 {
     PageType = List;
     SourceTable = "Radio Show";
-
+    UsageCategory = Lists;
+    ApplicationArea = Basic;
+    CardPageId = "Radio Show Card";
     layout
     {
         area(content)
@@ -46,6 +48,43 @@ page 50100 "Radio Show List"
                     ApplicationArea = Basic;
                 }
                 field("Royalty Cost"; Rec."Royalty Cost")
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Frequency; Rec.Frequency)
+                {
+                    ApplicationArea = Basic;
+                }
+                field("PSA Planned Quantity"; Rec."PSA Planned Quantity")
+                {
+                    ApplicationArea = Basic;
+
+                }
+                field("Ads Planned Quantity"; Rec."Ads Planned Quantity")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("News Required"; Rec."News Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("News Duration"; Rec."News Duration")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Sports Required"; Rec."Sports Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Sports Duration"; Rec."Sports Duration")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Weather Required"; Rec."Weather Required")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Weather Duration"; Rec."Weather Duration")
                 {
                     ApplicationArea = Basic;
                 }
