@@ -11,14 +11,20 @@ page 50101 "Radio Show Card"
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = Basic;
+                    QuickEntry = true;
+                    Importance = Promoted;
                 }
                 field("Radio Show Type"; Rec."Radio Show Type")
                 {
                     ApplicationArea = Basic;
+                    QuickEntry = true;
+                    Importance = Promoted;
                 }
                 field(Name; Rec.Name)
                 {
                     ApplicationArea = Basic;
+                    QuickEntry = true;
+                    Importance = Promoted;
                 }
                 field("Run Time"; Rec."Run Time")
                 {
@@ -77,6 +83,7 @@ page 50101 "Radio Show Card"
                 field("Average Listeners"; Rec."Average Listeners")
                 {
                     ApplicationArea = Basic;
+                    Importance = Promoted;
                 }
                 field("Audience Share"; Rec."Audience Share")
                 {
