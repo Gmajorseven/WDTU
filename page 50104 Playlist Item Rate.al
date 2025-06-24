@@ -4,14 +4,13 @@ page 50104 "Playlist Item Rate"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Playlist Item Rate";
-
     layout
     {
         area(Content)
         {
             repeater(Group)
             {
-                field("Source Type"; Rec."Source Type") { ApplicationArea = Basic; }
+                field("Source Type"; Rec."Source Type") { ApplicationArea = Basic; Visible = false; }
                 field("Source No."; Rec."Source No.") { ApplicationArea = Basic; }
                 field("Item No."; Rec."Item No.") { ApplicationArea = Basic; }
                 field("Start Time"; Rec."Start Time") { ApplicationArea = Basic; }
