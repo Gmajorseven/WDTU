@@ -16,6 +16,7 @@ query 50100 "Lot Avail. by Bin"
                 column(Location_Code; "Location Code") { }
                 column(Zone_Code; "Zone Code") { }
                 column(Bin_Code; "Bin Code") { }
+                column(Serial_No; "Serial No.") { }
                 column(Sum_Quantity; "Quantity") { Method = Sum; }
                 dataitem(Bin; Bin)
                 {
